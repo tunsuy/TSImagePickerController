@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE4F3E71CD494680055AC3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4F3E61CD494680055AC3F /* main.m */; };
+		DDE4F3EA1CD494680055AC3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4F3E91CD494680055AC3F /* AppDelegate.m */; };
+		DDE4F3ED1CD494680055AC3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4F3EC1CD494680055AC3F /* ViewController.m */; };
+		DDE4F3F01CD494680055AC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE4F3EE1CD494680055AC3F /* Main.storyboard */; };
+		DDE4F3F21CD494680055AC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE4F3F11CD494680055AC3F /* Assets.xcassets */; };
+		DDE4F3F51CD494680055AC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE4F3F31CD494680055AC3F /* LaunchScreen.storyboard */; };
+		DDE4F4001CD494680055AC3F /* TSImagePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4F3FF1CD494680055AC3F /* TSImagePickerControllerTests.m */; };
+		DDE4F40B1CD494680055AC3F /* TSImagePickerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4F40A1CD494680055AC3F /* TSImagePickerControllerUITests.m */; };
+		DDE4F41B1CD4A39D0055AC3F /* TSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4F41A1CD4A39D0055AC3F /* TSImagePickerController.m */; };
+		DDE4F41F1CD4A8430055AC3F /* HUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4F41E1CD4A8430055AC3F /* HUDView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE4F3FC1CD494680055AC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE4F3DA1CD494680055AC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE4F3E11CD494680055AC3F;
+			remoteInfo = TSImagePickerController;
+		};
+		DDE4F4071CD494680055AC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE4F3DA1CD494680055AC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE4F3E11CD494680055AC3F;
+			remoteInfo = TSImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE4F3E21CD494680055AC3F /* TSImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE4F3E61CD494680055AC3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE4F3E81CD494680055AC3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDE4F3E91CD494680055AC3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDE4F3EB1CD494680055AC3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDE4F3EC1CD494680055AC3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDE4F3EF1CD494680055AC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE4F3F11CD494680055AC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE4F3F41CD494680055AC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE4F3F61CD494680055AC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE4F3FB1CD494680055AC3F /* TSImagePickerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSImagePickerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE4F3FF1CD494680055AC3F /* TSImagePickerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSImagePickerControllerTests.m; sourceTree = "<group>"; };
+		DDE4F4011CD494680055AC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE4F4061CD494680055AC3F /* TSImagePickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSImagePickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE4F40A1CD494680055AC3F /* TSImagePickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSImagePickerControllerUITests.m; sourceTree = "<group>"; };
+		DDE4F40C1CD494680055AC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE4F4191CD4A39D0055AC3F /* TSImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSImagePickerController.h; sourceTree = "<group>"; };
+		DDE4F41A1CD4A39D0055AC3F /* TSImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSImagePickerController.m; sourceTree = "<group>"; };
+		DDE4F41D1CD4A8430055AC3F /* HUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDView.h; sourceTree = "<group>"; };
+		DDE4F41E1CD4A8430055AC3F /* HUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDView.m; sourceTree = "<group>"; };
+		DDE4F4201CD4A99C0055AC3F /* MacroDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefined.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE4F3DF1CD494680055AC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE4F3F81CD494680055AC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE4F4031CD494680055AC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE4F3D91CD494680055AC3F = {
+			isa = PBXGroup;
+			children = (
+				DDE4F3E41CD494680055AC3F /* TSImagePickerController */,
+				DDE4F3FE1CD494680055AC3F /* TSImagePickerControllerTests */,
+				DDE4F4091CD494680055AC3F /* TSImagePickerControllerUITests */,
+				DDE4F3E31CD494680055AC3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE4F3E31CD494680055AC3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4F3E21CD494680055AC3F /* TSImagePickerController.app */,
+				DDE4F3FB1CD494680055AC3F /* TSImagePickerControllerTests.xctest */,
+				DDE4F4061CD494680055AC3F /* TSImagePickerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE4F3E41CD494680055AC3F /* TSImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4F41C1CD4A81E0055AC3F /* TSHUD */,
+				DDE4F4181CD4A3520055AC3F /* ImagePickerController */,
+				DDE4F3E81CD494680055AC3F /* AppDelegate.h */,
+				DDE4F3E91CD494680055AC3F /* AppDelegate.m */,
+				DDE4F3EB1CD494680055AC3F /* ViewController.h */,
+				DDE4F3EC1CD494680055AC3F /* ViewController.m */,
+				DDE4F3EE1CD494680055AC3F /* Main.storyboard */,
+				DDE4F3F11CD494680055AC3F /* Assets.xcassets */,
+				DDE4F3F31CD494680055AC3F /* LaunchScreen.storyboard */,
+				DDE4F3F61CD494680055AC3F /* Info.plist */,
+				DDE4F3E51CD494680055AC3F /* Supporting Files */,
+				DDE4F4201CD4A99C0055AC3F /* MacroDefined.h */,
+			);
+			path = TSImagePickerController;
+			sourceTree = "<group>";
+		};
+		DDE4F3E51CD494680055AC3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4F3E61CD494680055AC3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE4F3FE1CD494680055AC3F /* TSImagePickerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4F3FF1CD494680055AC3F /* TSImagePickerControllerTests.m */,
+				DDE4F4011CD494680055AC3F /* Info.plist */,
+			);
+			path = TSImagePickerControllerTests;
+			sourceTree = "<group>";
+		};
+		DDE4F4091CD494680055AC3F /* TSImagePickerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4F40A1CD494680055AC3F /* TSImagePickerControllerUITests.m */,
+				DDE4F40C1CD494680055AC3F /* Info.plist */,
+			);
+			path = TSImagePickerControllerUITests;
+			sourceTree = "<group>";
+		};
+		DDE4F4181CD4A3520055AC3F /* ImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4F4191CD4A39D0055AC3F /* TSImagePickerController.h */,
+				DDE4F41A1CD4A39D0055AC3F /* TSImagePickerController.m */,
+			);
+			path = ImagePickerController;
+			sourceTree = "<group>";
+		};
+		DDE4F41C1CD4A81E0055AC3F /* TSHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4F41D1CD4A8430055AC3F /* HUDView.h */,
+				DDE4F41E1CD4A8430055AC3F /* HUDView.m */,
+			);
+			path = TSHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE4F3E11CD494680055AC3F /* TSImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE4F40F1CD494680055AC3F /* Build configuration list for PBXNativeTarget "TSImagePickerController" */;
+			buildPhases = (
+				DDE4F3DE1CD494680055AC3F /* Sources */,
+				DDE4F3DF1CD494680055AC3F /* Frameworks */,
+				DDE4F3E01CD494680055AC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSImagePickerController;
+			productName = TSImagePickerController;
+			productReference = DDE4F3E21CD494680055AC3F /* TSImagePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE4F3FA1CD494680055AC3F /* TSImagePickerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE4F4121CD494680055AC3F /* Build configuration list for PBXNativeTarget "TSImagePickerControllerTests" */;
+			buildPhases = (
+				DDE4F3F71CD494680055AC3F /* Sources */,
+				DDE4F3F81CD494680055AC3F /* Frameworks */,
+				DDE4F3F91CD494680055AC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE4F3FD1CD494680055AC3F /* PBXTargetDependency */,
+			);
+			name = TSImagePickerControllerTests;
+			productName = TSImagePickerControllerTests;
+			productReference = DDE4F3FB1CD494680055AC3F /* TSImagePickerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE4F4051CD494680055AC3F /* TSImagePickerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE4F4151CD494680055AC3F /* Build configuration list for PBXNativeTarget "TSImagePickerControllerUITests" */;
+			buildPhases = (
+				DDE4F4021CD494680055AC3F /* Sources */,
+				DDE4F4031CD494680055AC3F /* Frameworks */,
+				DDE4F4041CD494680055AC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE4F4081CD494680055AC3F /* PBXTargetDependency */,
+			);
+			name = TSImagePickerControllerUITests;
+			productName = TSImagePickerControllerUITests;
+			productReference = DDE4F4061CD494680055AC3F /* TSImagePickerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE4F3DA1CD494680055AC3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tunsuy;
+				TargetAttributes = {
+					DDE4F3E11CD494680055AC3F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DDE4F3FA1CD494680055AC3F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDE4F3E11CD494680055AC3F;
+					};
+					DDE4F4051CD494680055AC3F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDE4F3E11CD494680055AC3F;
+					};
+				};
+			};
+			buildConfigurationList = DDE4F3DD1CD494680055AC3F /* Build configuration list for PBXProject "TSImagePickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE4F3D91CD494680055AC3F;
+			productRefGroup = DDE4F3E31CD494680055AC3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE4F3E11CD494680055AC3F /* TSImagePickerController */,
+				DDE4F3FA1CD494680055AC3F /* TSImagePickerControllerTests */,
+				DDE4F4051CD494680055AC3F /* TSImagePickerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE4F3E01CD494680055AC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE4F3F51CD494680055AC3F /* LaunchScreen.storyboard in Resources */,
+				DDE4F3F21CD494680055AC3F /* Assets.xcassets in Resources */,
+				DDE4F3F01CD494680055AC3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE4F3F91CD494680055AC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE4F4041CD494680055AC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE4F3DE1CD494680055AC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE4F41F1CD4A8430055AC3F /* HUDView.m in Sources */,
+				DDE4F41B1CD4A39D0055AC3F /* TSImagePickerController.m in Sources */,
+				DDE4F3ED1CD494680055AC3F /* ViewController.m in Sources */,
+				DDE4F3EA1CD494680055AC3F /* AppDelegate.m in Sources */,
+				DDE4F3E71CD494680055AC3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE4F3F71CD494680055AC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE4F4001CD494680055AC3F /* TSImagePickerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE4F4021CD494680055AC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE4F40B1CD494680055AC3F /* TSImagePickerControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE4F3FD1CD494680055AC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE4F3E11CD494680055AC3F /* TSImagePickerController */;
+			targetProxy = DDE4F3FC1CD494680055AC3F /* PBXContainerItemProxy */;
+		};
+		DDE4F4081CD494680055AC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE4F3E11CD494680055AC3F /* TSImagePickerController */;
+			targetProxy = DDE4F4071CD494680055AC3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE4F3EE1CD494680055AC3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE4F3EF1CD494680055AC3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE4F3F31CD494680055AC3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE4F3F41CD494680055AC3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE4F40D1CD494680055AC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDE4F40E1CD494680055AC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE4F4101CD494680055AC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDE4F4111CD494680055AC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDE4F4131CD494680055AC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSImagePickerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSImagePickerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSImagePickerController.app/TSImagePickerController";
+			};
+			name = Debug;
+		};
+		DDE4F4141CD494680055AC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSImagePickerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSImagePickerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSImagePickerController.app/TSImagePickerController";
+			};
+			name = Release;
+		};
+		DDE4F4161CD494680055AC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSImagePickerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSImagePickerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSImagePickerController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDE4F4171CD494680055AC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSImagePickerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSImagePickerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSImagePickerController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE4F3DD1CD494680055AC3F /* Build configuration list for PBXProject "TSImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE4F40D1CD494680055AC3F /* Debug */,
+				DDE4F40E1CD494680055AC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE4F40F1CD494680055AC3F /* Build configuration list for PBXNativeTarget "TSImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE4F4101CD494680055AC3F /* Debug */,
+				DDE4F4111CD494680055AC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE4F4121CD494680055AC3F /* Build configuration list for PBXNativeTarget "TSImagePickerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE4F4131CD494680055AC3F /* Debug */,
+				DDE4F4141CD494680055AC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE4F4151CD494680055AC3F /* Build configuration list for PBXNativeTarget "TSImagePickerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE4F4161CD494680055AC3F /* Debug */,
+				DDE4F4171CD494680055AC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE4F3DA1CD494680055AC3F /* Project object */;
+}
