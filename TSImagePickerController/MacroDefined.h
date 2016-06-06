@@ -9,5 +9,9 @@
 #ifndef MacroDefined_h
 #define MacroDefined_h
 
+#define TS_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define TS_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define kBrowseSpace 50.0f
 
 #endif /* MacroDefined_h */
